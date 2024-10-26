@@ -1,8 +1,8 @@
 /* ONLY ALLOWED HEX AND RGB COLOR CODES */
 
 body {
-    background-color: rgb(41, 41, 41);
-    color:rgb(205, 205, 205);
+    background-color: #faf602;
+    color:hsl(0, 0%, 100%);
     font-size: large;
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
@@ -12,10 +12,30 @@ img {
     margin-right: 2em;
 }
 
+#facts {
+    background: linear-gradient(290deg, #ff0000 0%, #ffa500 50%, #ffff00 100%);
+    border: 1em dashed #080808;
+}
+
+#info_1 {
+    padding: 8em 3em;
+    text-align: right;
+}
+
+#info_2{
+    padding: 4em 6em;
+    text-align: left;
+}
+
+#info_3{
+    padding: 2em 7em;
+    text-align: center;
+}
+
 .header {
     color:#ffe4c4
 }
 
 .link {
-    color: rgb(66, 111, 189);
+    color: #faf602;
 }

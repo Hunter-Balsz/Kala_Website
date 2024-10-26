@@ -1,0 +1,22 @@
+body {
+    background-color: #faf602;
+    color:hsl(0, 44%, 65%);
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background: hsl(0, 0%, 99%) url(Kala.html/Images/download.jpg);
+}
+
+#link {
+    color: #ffb6c1;
+}
+
+#content {
+    background: rgb(255, 121, 244);
+    border: thick outset #f1bf62;
+}
+
+.content {
+    columns: 2;
+    column-gap: 500px;
+    column-rule: 30px solid rgb(170, 74, 74);
+}
